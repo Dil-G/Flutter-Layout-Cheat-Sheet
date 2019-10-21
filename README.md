@@ -74,7 +74,6 @@ A  [ScrollView](https://api.flutter.dev/flutter/widgets/ScrollView-class.html)  
 
 This sample code shows a scroll view that contains a flexible pinned app bar, a grid, and an infinite list.
 
-_assignment_
 
 ```dart
 CustomScrollView(
@@ -113,9 +112,6 @@ The main axis direction of a grid is the direction in which it scrolls (the [scr
 A  [GridView](https://api.flutter.dev/flutter/widgets/GridView-class.html)  is basically a  [CustomScrollView](https://api.flutter.dev/flutter/widgets/CustomScrollView-class.html)  with a single  [SliverGrid](https://api.flutter.dev/flutter/widgets/SliverGrid-class.html)  in its  [CustomScrollView.slivers](https://api.flutter.dev/flutter/widgets/CustomScrollView/slivers.html)  property.
 
 If  [GridView](https://api.flutter.dev/flutter/widgets/GridView-class.html)  is no longer sufficient, for example because the scroll view is to have both a grid and a list, or because the grid is to be combined with a  [SliverAppBar](https://api.flutter.dev/flutter/material/SliverAppBar-class.html), etc, it is straight-forward to port code from using  [GridView](https://api.flutter.dev/flutter/widgets/GridView-class.html)  to using  [CustomScrollView](https://api.flutter.dev/flutter/widgets/CustomScrollView-class.html)  directly
-
-[_  
-link_](https://api.flutter.dev/flutter/# "Copy link to clipboard")
 
 Sample
 
@@ -167,7 +163,6 @@ GridView.count(
 )
 ```
 
-[_link_](https://api.flutter.dev/flutter/# "Copy link to clipboard")
 
 Sample
 
@@ -175,7 +170,6 @@ This example shows how to create the same grid as the previous example using a  
 
 ![A screenshot of a CustomScrollView with a SliverGrid](https://flutter.github.io/assets-for-api-docs/assets/widgets/grid_view_custom_scroll.png)
 
-_assignment_
 
 ```dart
 CustomScrollView(
@@ -207,16 +201,12 @@ CustomScrollView(
 ## 3.ListView  class
 
 A scrollable list of widgets arranged linearly.
-
-[_link_](https://api.flutter.dev/flutter/widgets/ListView-class.html#widgets.ListView.1 "Copy link to clipboard")
-
 Sample
 
 This example uses the default constructor for  [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html)  which takes an explicit  [List<Widget>](https://api.flutter.dev/flutter/dart-core/List-class.html)  of children. This  [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html)'s children are made up of  [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)s with  [Text](https://api.flutter.dev/flutter/widgets/Text-class.html).
 
 ![A ListView of 3 amber colored containers with sample text.](https://flutter.github.io/assets-for-api-docs/assets/widgets/list_view.png)
 
-_assignment_
 
 ```dart
 ListView(
